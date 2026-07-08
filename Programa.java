@@ -1,9 +1,11 @@
 public class Programa {
     public static void main(String[] args) {
-        int numero = 10;
-        int numero2 = 5;
+        int numero = 20000;
+        int numero2 = 500000;
         int soma = somar(numero, numero2);
         System.out.println("A soma de " + numero + " e " + numero2 + " é: " + soma);
+
+        System.out.println("terminou");
 
 
     }
